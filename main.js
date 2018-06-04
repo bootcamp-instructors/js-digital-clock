@@ -1,4 +1,4 @@
-function setDate() {
+function setTime() {
 
   var now = new Date();
 
@@ -22,9 +22,9 @@ function setDate() {
 
 }
 
-setInterval(setDate, 1000);
+setInterval(setTime, 1000);
 
-setDate();
+setTime();
 
 
 
